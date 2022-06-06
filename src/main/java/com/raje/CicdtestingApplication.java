@@ -14,8 +14,8 @@ public class CicdtestingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CicdtestingApplication.class, args);
 	}
-	@GetMapping("/test")
-	String test(){
+	@GetMapping(path="/test")
+	public String test(){
 		return "hello java";
 		
 	}
